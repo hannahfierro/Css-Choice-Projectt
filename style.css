@@ -1,0 +1,179 @@
+.homepage h1{
+  text-decoration: underline;
+  color: black;
+  text-decoration-color: black;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 70px
+}
+
+body {
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgrey;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: snow;
+}
+
+.active {
+  background-color: Lightgrey ;
+}
+
+
+.homepage {
+  background-image:url(https://i.pinimg.com/originals/40/97/d2/4097d21b8e6e496170ed0d2b7a9974ad.jpg);
+}
+.button {
+  color:plum;
+  text-align: right;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+}
+
+.characters h1{
+  text-decoration: underline;
+  color: black;
+  text-decoration-color: black;
+  text-align: center;
+  font-family:'Courier New', monospace;
+  font-size: 70px
+}
+.characters {
+  background-image: url(https://i.pinimg.com/originals/ce/3b/29/ce3b2945dd31e1d78337c9ef1119a35d.jpg);
+}
+.impact {
+  background-image: url(https://i.pinimg.com/originals/79/f7/c8/79f7c8770d06fa8a2d2c9dfd1bf2bb38.jpg);
+}
+.impact h1{
+  text-decoration: underline;
+  color: black;
+  text-decoration-color: black;
+  text-align: center;
+  font-family:'Courier New', monospace;
+  font-size: 70px
+}
+.friends {
+  display:;
+  margin-left:inherit;
+margin-right:auto;
+filter:contrast(100%);
+}
+.friendss {
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+  border-radius: 100%;
+  filter:contrast(100%);
+}
+
+.buttonn {
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+}
+.animation {
+ width: 100px;
+ height: 100px;
+ background-color: red;
+ position: relative;
+ animation-name: example;
+ animation-duration: 2s;
+ animation-iteration-count: 2000000000000000000000000000000000000000000000000000000;
+ animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+ 0%   {background-color:Orange; left:0px; top:0px;}
+ 25%  {background-color:yellow; left:200px; top:0px;}
+ 50%  {background-color:lightblue; left:200px; top:200px;}
+ 75%  {background-color:green; left:0px; top:200px;}
+ 100% {background-color:red; left:0px; top:0px;}
+}
+
+.drop{
+  text-align:right;
+  background-color: Ivory;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor:pointer;
+  font-style: italic;
+}
+.dropdown {
+  position:relative;
+  display: inline-block;
+  align-self: center;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgrey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color:white}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .drop {
+  background-color: white;
+}
+.gif {
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+}
+.friendsss {
+  filter:grayscale(100%);
+}
+.animation {
+  display: center
+}
+.desc {
+  text-align:center;
+  font-family: cursive;
+}
+.drop {
+  display:inline-block;
+  margin-right: 15px;
+  position: relative;
+}
